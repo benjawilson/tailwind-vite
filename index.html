@@ -7,7 +7,75 @@
     <link href="./css/tailwind.css" rel="stylesheet" />
 </head>
 <body>
-   <h1 class="text-4xl font-bold text-center" >Hello World!</h1> 
-   <button class="btn">Button</button>
+    <div class="grid grid-cols-3 bg-[url('/img/ocean.jpg')] p-8">
+    <div class="col-span-1">
+    <textarea class="textarea textarea-primary" placeholder="Bio"></textarea>
+    <!--Accordion for codes-->
+    <div class="collapse collapse-arrow bg-base-200">
+  <input type="radio" name="my-accordion-2" checked="checked" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow bg-base-200">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div class="collapse collapse-arrow bg-base-200">
+  <input type="radio" name="my-accordion-2" /> 
+  <div class="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div class="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+</div>
+
+<!--Client cards-->
+<div class="col-span-2 flex flex-wrap">
+<!--Card 1-->
+<div class="card w-96 glass m-2">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+  <div class="card-body">
+    <h2 class="card-title">Life hack</h2>
+    <p>How to park your car at your garage?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Learn now!</button>
+    </div>
+  </div>
+</div>
+<!--Card 2-->
+<div class="card w-96 glass m-2">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+  <div class="card-body">
+    <h2 class="card-title">Life hack</h2>
+    <p>How to park your car at your garage?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Learn now!</button>
+    </div>
+  </div>
+</div>
+<!--Card 3-->
+<div class="card w-96 glass m-2">
+  <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="car!"/></figure>
+  <div class="card-body">
+    <h2 class="card-title">Life hack</h2>
+    <p>How to park your car at your garage?</p>
+    <div class="card-actions justify-end">
+      <button class="btn btn-primary">Learn now!</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
 </body>
 </html>
