@@ -7,7 +7,24 @@
     <link href="./css/tailwind.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="grid grid-cols-3 bg-[url('/img/ocean.jpg')] p-8">
+    <!--Hero Section-->
+    <section id="hero">
+    <div class="hero min-h-screen" style="background-image: url('img/ocean.jpg');">
+  <div class="hero-overlay bg-opacity-60"></div>
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+      <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <button class="btn btn-primary" href="#clients">Get Started</button>
+    </div>
+  </div>
+</div>
+</section>
+
+
+    <!--Codes and Clients Section-->
+    <section id="clients">
+    <div class="grid grid-cols-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8">
     <div class="col-span-1">
     <textarea class="textarea textarea-primary" placeholder="Bio"></textarea>
     <!--Accordion for codes-->
@@ -77,5 +94,6 @@
 </div>
 </div>
 </div>
+</section>
 </body>
 </html>
